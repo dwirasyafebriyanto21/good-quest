@@ -108,7 +108,7 @@ const games = [
     studio: "Night Shift Games",
     release: "2025",
     description:
-      "Kelola satu-satunya kedai makan di kota yang seharusnya tak pernah ada. Jaga lampu tetap menyala, kenali kisah para pelanggan, dan atur kekacauan secukupnya agar semua orang pulang sebelum fajar.",
+      "Satu satunya permainan yang horor, diambil dari kisah nyata dari seorang mahasiswa dari unismuh. Jaga lampu tetap menyala, kenali kisah para pelanggan, dan atur kekacauan secukupnya agar semua orang pulang sebelum fajar.",
     tagline: "Buka sepanjang malam. Mungkin sepanjang tahun.",
   },
   {
