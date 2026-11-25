@@ -1,18 +1,18 @@
 const games = [
   {
     id: "quiet-between",
-    title: "The Quiet Between",
+    title: "Behind Back Of Master Training",
     art: "quiet",
     mark: "TENANG / 01",
-    label: "THE QUIET<br>BETWEEN",
-    genre: "Adventure",
+    label: "BEHIND BACK OF<br>MASTER TRAINING",
+    genre: "cRIME",
     rating: "96%",
     price: 18.99,
     tag: "Pilihan GoodQuest",
     studio: "Morrow Field",
     release: "2025",
     description:
-      "Petualangan dunia terbuka yang tenang tentang seorang kartografer yang kembali ke pulau tempat ia dibesarkan. Ikuti peta tulisan tangan, temui mereka yang tetap tinggal, dan temukan bahwa hal terpenting ternyata tak pernah hilang.",
+      "Seorang pemimpin yang ternyata menghianati bawahannya, hanya demi harta yang tak seberapa. Ikuti jejaknya, temukan rahasia yang ia sembunyikan, dan hadapi konsekuensi dari pilihanmu dalam kisah yang penuh intrik ini.",
     tagline: "Jelajahi dunia yang selalu mengingatmu.",
   },
   {
