@@ -56,7 +56,7 @@ const games = [
     label: "PUBG:<br>BATTLEGROUNDS",
     genre: "Shooter",
     rating: "89%",
-    price: Free,
+    price: 0,
     tag: "Top Sellers Steam",
     studio: "PUBG Studios",
     release: "2017",
