@@ -107,6 +107,8 @@ kbd { display: grid; width: 17px; height: 18px; place-items: center; border: 1px
 .art-title small { display: block; margin-top: 5px; color: #f0e9c5c7; font: 600 7px var(--sans); letter-spacing: 1.4px; }
 .art-ember::before { background: radial-gradient(ellipse at 68% 32%, #ffd989 0 10%, transparent 11%), linear-gradient(147deg, transparent 46%, #5a2925 47% 60%, transparent 61%), linear-gradient(28deg, #171c24, #b64936 57%, #e3a060); }
 .art-ember::after { background: linear-gradient(0deg, #171714dc, transparent 78%); }
+.art-heist::before { background: radial-gradient(circle at 68% 28%, #d7c38c 0 7%, transparent 7.5%), linear-gradient(145deg, transparent 43%, #263b38 44% 60%, transparent 61%), linear-gradient(25deg, #171b18, #59684a 58%, #9b8a62); }
+.art-heist::after { background: linear-gradient(0deg, #151915d9, transparent 78%); }
 .art-orbit::before { background: radial-gradient(circle at 54% 46%, #e0ad72 0 10%, transparent 10.5%), radial-gradient(ellipse at 52% 46%, transparent 0 22%, #dcdac7 22.5% 23.5%, transparent 24%), radial-gradient(circle at 78% 24%, #f8edc2 0 2px, transparent 3px), linear-gradient(135deg, #15203c, #52758a 55%, #c3b087); }
 .art-orbit::after { background: linear-gradient(0deg, #10131bd6, transparent 80%); }
 .art-velvet::before { background: radial-gradient(circle at 67% 30%, #e6bd77 0 7%, transparent 7.5%), radial-gradient(ellipse at 58% 89%, #281627 0 24%, transparent 25%), linear-gradient(125deg, #311d41, #915f73 52%, #d39a82); }
