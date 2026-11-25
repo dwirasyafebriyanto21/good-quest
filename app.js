@@ -2,6 +2,7 @@ const games = [
   {
     id: "behind-master",
     title: "Behind Back of Master Training",
+    image: "https://chatgpt.com/s/m_6b074e4ff79481918b7bc82c51f9176c.jpg",
     art: "heist",
     mark: "TENANG / 01",
     label: "BEHIND BACK OF<br>MASTER TRAINING",
