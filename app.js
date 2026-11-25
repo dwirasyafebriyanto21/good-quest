@@ -1,11 +1,11 @@
 const games = [
   {
-    id: "quiet-between",
+    id: "behind-master",
     title: "Behind Back Of Master Training",
-    art: "quiet",
+    art: "heist",
     mark: "TENANG / 01",
     label: "BEHIND BACK OF<br>MASTER TRAINING",
-    genre: "cRIME",
+    genre: "Crime",
     rating: "96%",
     price: 18.99,
     tag: "Pilihan GoodQuest",
