@@ -19,6 +19,8 @@ const games = [
   {
     id: "apex-legends",
     title: "Apex Legends",
+    image:
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/4219c147f1e094297c726d537518babba7f3ae2d/header.jpg?t=1794958367",
     art: "ember",
     mark: "PENJARINGAN / 02",
     label: "APEX<br>LEGENDS",
@@ -35,6 +37,8 @@ const games = [
   {
     id: "counter-strike-2",
     title: "Counter-Strike 2",
+    image:
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/162664aa5da85f418105350c5d67ca565f6c3713/header.jpg?t=1793054556",
     art: "storm",
     mark: "STRATEGI / 03",
     label: "COUNTER-<br>STRIKE 2",
@@ -51,6 +55,8 @@ const games = [
   {
     id: "pubg-battlegrounds",
     title: "PUBG: BATTLEGROUNDS",
+    image:
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/841ea38bc58cabb70aef65365cf50bc2d79329d9/header.jpg?t=1792718193",
     art: "moss",
     mark: "SURVIVAL / 04",
     label: "PUBG:<br>BATTLEGROUNDS",
@@ -67,6 +73,8 @@ const games = [
   {
     id: "red-dead-redemption-2",
     title: "Red Dead Redemption 2",
+    image:
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1759502961",
     art: "ember",
     mark: "BARAT / 05",
     label: "RED DEAD<br>REDEMPTION 2",
@@ -83,6 +91,8 @@ const games = [
   {
     id: "grand-theft-auto-v",
     title: "Grand Theft Auto V Enhanced",
+    image:
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg?t=1781187782",
     art: "velvet",
     mark: "KOTA / 06",
     label: "GRAND THEFT AUTO V<br>ENHANCED",
@@ -115,6 +125,8 @@ const games = [
   {
     id: "baldurs-gate-3",
     title: "Baldur's Gate 3",
+    image:
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
     art: "glass",
     mark: "FANTASI / 08",
     label: "BALDUR'S<br>GATE 3",
@@ -225,7 +237,11 @@ function getGame(id) {
 }
 
 function artMarkup(game, large = false) {
+  const image = game.image
+    ? `<img class="game-art-image" src="${escapeHtml(game.image)}" alt="" loading="lazy" decoding="async">`
+    : "";
   return `<div class="game-art art-${game.art}${large ? " art-large" : ""}" aria-label="Ilustrasi game ${escapeHtml(game.title)}">
+    ${image}
     <span class="art-mark">${escapeHtml(game.mark)}</span>
     <span class="art-title">${game.label}<small>${escapeHtml(game.studio.toUpperCase())}</small></span>
   </div>`;
@@ -459,6 +475,16 @@ function showToast(message) {
     2800,
   );
 }
+
+document.addEventListener(
+  "error",
+  (event) => {
+    const target = event.target;
+    if (target instanceof HTMLImageElement && target.matches(".game-art-image"))
+      target.remove();
+  },
+  true,
+);
 
 function checkout() {
   const items = state.cart.map(getGame).filter(Boolean);
