@@ -2,6 +2,8 @@ const games = [
   {
     id: "behind-master",
     title: "Behind Back of Master Training",
+    image: "assets/behind-back-master-training.png",
+    imageAlt: "Banner Behind Back of Master Training dengan suasana perampokan gelap.",
     art: "heist",
     mark: "TENANG / 01",
     label: "BEHIND BACK OF<br>MASTER TRAINING",
@@ -109,6 +111,8 @@ const games = [
   {
     id: "deadzone-diner",
     title: "Deadzone Pusdiklat",
+    image: "assets/deadzone-pusdiklat.png",
+    imageAlt: "Banner Deadzone Pusdiklat menampilkan diner malam dengan neon dan bulan purnama.",
     art: "neon",
     mark: "MALAM / 07",
     label: "DEADZONE<br>PUSDIKLAT",
@@ -238,7 +242,7 @@ function getGame(id) {
 
 function artMarkup(game, large = false) {
   const image = game.image
-    ? `<img class="game-art-image" src="${escapeHtml(game.image)}" alt="" loading="lazy" decoding="async">`
+    ? `<img class="game-art-image" src="${escapeHtml(game.image)}" alt="${escapeHtml(game.imageAlt || "")}" loading="lazy" decoding="async">`
     : "";
   return `<div class="game-art art-${game.art}${large ? " art-large" : ""}" aria-label="Ilustrasi game ${escapeHtml(game.title)}">
     ${image}
