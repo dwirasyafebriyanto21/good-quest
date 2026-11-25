@@ -11,8 +11,9 @@ const games = [
     tag: "Pilihan GoodQuest",
     studio: "Morrow Field",
     release: "2025",
-    description: "Petualangan dunia terbuka yang tenang tentang seorang kartografer yang kembali ke pulau tempat ia dibesarkan. Ikuti peta tulisan tangan, temui mereka yang tetap tinggal, dan temukan bahwa hal terpenting ternyata tak pernah hilang.",
-    tagline: "Jelajahi dunia yang selalu mengingatmu."
+    description:
+      "Petualangan dunia terbuka yang tenang tentang seorang kartografer yang kembali ke pulau tempat ia dibesarkan. Ikuti peta tulisan tangan, temui mereka yang tetap tinggal, dan temukan bahwa hal terpenting ternyata tak pernah hilang.",
+    tagline: "Jelajahi dunia yang selalu mengingatmu.",
   },
   {
     id: "orbitfall",
@@ -26,8 +27,9 @@ const games = [
     tag: "Favorit pemain",
     studio: "Small Hours",
     release: "2025",
-    description: "Setiap orbit membawamu semakin dekat ke rumah. Kemudikan kapal riset yang penuh tambalan, petakan sistem bintang yang menakjubkan, dan ambil keputusan sulit demi menjaga kebersamaan kru dalam petualangan luar angkasa ini.",
-    tagline: "Bintang-bintang tak sejauh kelihatannya."
+    description:
+      "Setiap orbit membawamu semakin dekat ke rumah. Kemudikan kapal riset yang penuh tambalan, petakan sistem bintang yang menakjubkan, dan ambil keputusan sulit demi menjaga kebersamaan kru dalam petualangan luar angkasa ini.",
+    tagline: "Bintang-bintang tak sejauh kelihatannya.",
   },
   {
     id: "velvet-static",
@@ -41,8 +43,9 @@ const games = [
     tag: "Baru hadir",
     studio: "Afterimage Club",
     release: "2025",
-    description: "Putar frekuensi radio tua untuk menjelajahi siaran tengah malam kota. Setiap stasiun mengungkap bagian baru dari misteri, dan tiap teka-teki mengubah lagu yang mengiringi kredit penutup.",
-    tagline: "Ada sesuatu di antara gelombang radio."
+    description:
+      "Putar frekuensi radio tua untuk menjelajahi siaran tengah malam kota. Setiap stasiun mengungkap bagian baru dari misteri, dan tiap teka-teki mengubah lagu yang mengiringi kredit penutup.",
+    tagline: "Ada sesuatu di antara gelombang radio.",
   },
   {
     id: "mosslight",
@@ -56,8 +59,9 @@ const games = [
     tag: "Dunia yang menenangkan",
     studio: "Fern & Finch",
     release: "2024",
-    description: "Bangun rumah kecil bagi para roh hutan yang terlupakan. Rawat kebun, jelajahi hutan sesukamu, dan hadirkan kembali cahaya di tengah rimba yang telah lama ada.",
-    tagline: "Petualangan dengan suasana lebih santai."
+    description:
+      "Bangun rumah kecil bagi para roh hutan yang terlupakan. Rawat kebun, jelajahi hutan sesukamu, dan hadirkan kembali cahaya di tengah rimba yang telah lama ada.",
+    tagline: "Petualangan dengan suasana lebih santai.",
   },
   {
     id: "emberwake",
@@ -71,8 +75,9 @@ const games = [
     tag: "Pilihan aksi",
     studio: "Iron Orchard",
     release: "2025",
-    description: "Roguelite aksi cepat tentang sebuah kota kecil dengan masalah besar. Pelajari keahlian baru di setiap percobaan, kumpulkan benda warisan yang unik, lalu taklukkan gunung untuk terakhir kalinya.",
-    tagline: "Jatuh, bangkit, lalu bersinar."
+    description:
+      "Roguelite aksi cepat tentang sebuah kota kecil dengan masalah besar. Pelajari keahlian baru di setiap percobaan, kumpulkan benda warisan yang unik, lalu taklukkan gunung untuk terakhir kalinya.",
+    tagline: "Jatuh, bangkit, lalu bersinar.",
   },
   {
     id: "glass-harbor",
@@ -86,23 +91,25 @@ const games = [
     tag: "Kisah mendalam",
     studio: "Lowtide Works",
     release: "2024",
-    description: "Di kota tepi laut yang hanya muncul saat air surut, pilihanmu membentuk komunitas baru. Santap hidangan bersama, jelajahi jalanan yang tenggelam, dan tentukan kisah mana yang layak dikenang.",
-    tagline: "Setiap surut membawa awal yang baru."
+    description:
+      "Di kota tepi laut yang hanya muncul saat air surut, pilihanmu membentuk komunitas baru. Santap hidangan bersama, jelajahi jalanan yang tenggelam, dan tentukan kisah mana yang layak dikenang.",
+    tagline: "Setiap surut membawa awal yang baru.",
   },
   {
     id: "deadzone-diner",
-    title: "Deadzone Diner",
+    title: "Deadzone Pusdiklat",
     art: "neon",
     mark: "MALAM / 07",
-    label: "DEADZONE<br>DINER",
+    label: "DEADZONE<br>PUSDIKLAT",
     genre: "Strategy",
     rating: "87%",
     price: 12.99,
     tag: "Permata tersembunyi",
     studio: "Night Shift Games",
     release: "2025",
-    description: "Kelola satu-satunya kedai makan di kota yang seharusnya tak pernah ada. Jaga lampu tetap menyala, kenali kisah para pelanggan, dan atur kekacauan secukupnya agar semua orang pulang sebelum fajar.",
-    tagline: "Buka sepanjang malam. Mungkin sepanjang tahun."
+    description:
+      "Kelola satu-satunya kedai makan di kota yang seharusnya tak pernah ada. Jaga lampu tetap menyala, kenali kisah para pelanggan, dan atur kekacauan secukupnya agar semua orang pulang sebelum fajar.",
+    tagline: "Buka sepanjang malam. Mungkin sepanjang tahun.",
   },
   {
     id: "last-light",
@@ -116,14 +123,26 @@ const games = [
     tag: "Permata tersembunyi",
     studio: "North Window",
     release: "2024",
-    description: "Petualangan RPG penuh makna di desa pegunungan yang menyimpan lebih banyak rahasia daripada jumlah warganya. Kumpulkan para tetangga, ungkap janji yang lama terlupakan, dan temukan jalanmu sendiri.",
-    tagline: "Ada cahaya yang layak kaubawa."
-  }
+    description:
+      "Petualangan RPG penuh makna di desa pegunungan yang menyimpan lebih banyak rahasia daripada jumlah warganya. Kumpulkan para tetangga, ungkap janji yang lama terlupakan, dan temukan jalanmu sendiri.",
+    tagline: "Ada cahaya yang layak kaubawa.",
+  },
 ];
 
-const storageKeys = { cart: "goodquest-cart-v1", library: "goodquest-library-v1" };
+const storageKeys = {
+  cart: "goodquest-cart-v1",
+  library: "goodquest-library-v1",
+};
 const demoLibrary = ["mosslight", "orbitfall"];
-const genres = ["All games", "Action", "Adventure", "Puzzle", "RPG", "Sci-fi", "Strategy"];
+const genres = [
+  "All games",
+  "Action",
+  "Adventure",
+  "Puzzle",
+  "RPG",
+  "Sci-fi",
+  "Strategy",
+];
 const genreLabels = {
   "All games": "Semua game",
   Action: "Aksi",
@@ -131,7 +150,7 @@ const genreLabels = {
   Puzzle: "Teka-teki",
   RPG: "RPG",
   "Sci-fi": "Fiksi ilmiah",
-  Strategy: "Strategi"
+  Strategy: "Strategi",
 };
 const state = {
   view: "store",
@@ -141,7 +160,7 @@ const state = {
   cart: readSavedList(storageKeys.cart, []),
   library: readSavedList(storageKeys.library, demoLibrary),
   selectedGameId: null,
-  receipt: null
+  receipt: null,
 };
 
 const gameGrid = document.querySelector("#game-grid");
@@ -156,8 +175,11 @@ function readSavedList(key, fallback) {
     const saved = localStorage.getItem(key);
     if (saved === null) return [...fallback];
     const parsed = JSON.parse(saved);
-    if (!Array.isArray(parsed)) throw new TypeError("Saved value is not a list");
-    return [...new Set(parsed.filter(id => games.some(game => game.id === id)))];
+    if (!Array.isArray(parsed))
+      throw new TypeError("Saved value is not a list");
+    return [
+      ...new Set(parsed.filter((id) => games.some((game) => game.id === id))),
+    ];
   } catch (error) {
     console.warn(`Could not read ${key}; using demo defaults.`, error);
     return [...fallback];
@@ -169,22 +191,35 @@ function saveList(key, list) {
     localStorage.setItem(key, JSON.stringify(list));
   } catch (error) {
     console.warn(`Could not save ${key}.`, error);
-    showToast("Perubahan ini tidak dapat disimpan di browser dan mungkin hilang saat halaman ditutup.");
+    showToast(
+      "Perubahan ini tidak dapat disimpan di browser dan mungkin hilang saat halaman ditutup.",
+    );
   }
 }
 
 function formatPrice(price) {
-  return new Intl.NumberFormat("id-ID", { style: "currency", currency: "USD" }).format(price);
+  return new Intl.NumberFormat("id-ID", {
+    style: "currency",
+    currency: "USD",
+  }).format(price);
 }
 
 function escapeHtml(value) {
-  return String(value).replace(/[&<>"']/g, character => ({
-    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
-  })[character]);
+  return String(value).replace(
+    /[&<>"']/g,
+    (character) =>
+      ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;",
+      })[character],
+  );
 }
 
 function getGame(id) {
-  return games.find(game => game.id === id);
+  return games.find((game) => game.id === id);
 }
 
 function artMarkup(game, large = false) {
@@ -195,20 +230,29 @@ function artMarkup(game, large = false) {
 }
 
 function renderFilters() {
-  document.querySelector("#genre-filters").innerHTML = genres.map(genre => `
+  document.querySelector("#genre-filters").innerHTML = genres
+    .map(
+      (genre) => `
     <button class="filter-chip${state.genre === genre ? " is-active" : ""}" type="button"
       data-genre="${escapeHtml(genre)}" aria-pressed="${state.genre === genre}">${escapeHtml(genreLabels[genre])}</button>
-  `).join("");
+  `,
+    )
+    .join("");
 }
 
 function filteredGames() {
   const search = state.query.trim().toLowerCase();
-  const result = games.filter(game => {
-    const matchesGenre = state.genre === "All games" || game.genre === state.genre;
-    const searchableText = `${game.title} ${game.genre} ${genreLabels[game.genre]} ${game.studio} ${game.description}`.toLowerCase();
+  const result = games.filter((game) => {
+    const matchesGenre =
+      state.genre === "All games" || game.genre === state.genre;
+    const searchableText =
+      `${game.title} ${game.genre} ${genreLabels[game.genre]} ${game.studio} ${game.description}`.toLowerCase();
     return matchesGenre && (!search || searchableText.includes(search));
   });
-  if (state.sort === "rating") result.sort((a, b) => Number.parseInt(b.rating, 10) - Number.parseInt(a.rating, 10));
+  if (state.sort === "rating")
+    result.sort(
+      (a, b) => Number.parseInt(b.rating, 10) - Number.parseInt(a.rating, 10),
+    );
   if (state.sort === "price-low") result.sort((a, b) => a.price - b.price);
   if (state.sort === "price-high") result.sort((a, b) => b.price - a.price);
   return result;
@@ -216,33 +260,43 @@ function filteredGames() {
 
 function renderGames() {
   const visibleGames = filteredGames();
-  gameGrid.innerHTML = visibleGames.map(game => {
-    const inCart = state.cart.includes(game.id);
-    const owned = state.library.includes(game.id);
-    return `<article class="game-card" data-game-card="${game.id}" tabindex="0" aria-label="Lihat detail ${escapeHtml(game.title)}">
+  gameGrid.innerHTML = visibleGames
+    .map((game) => {
+      const inCart = state.cart.includes(game.id);
+      const owned = state.library.includes(game.id);
+      return `<article class="game-card" data-game-card="${game.id}" tabindex="0" aria-label="Lihat detail ${escapeHtml(game.title)}">
       ${artMarkup(game)}
       <div class="game-card-body">
         <div class="game-card-title-row"><h3>${escapeHtml(game.title)}</h3><span class="game-rating">★ ${game.rating}</span></div>
         <div class="game-meta"><span class="game-genre">${escapeHtml(genreLabels[game.genre])} · ${escapeHtml(game.studio)}</span><span class="game-price">${formatPrice(game.price)}</span></div>
         <div class="game-card-footer">
           <span class="game-tag">${owned ? "Sudah di pustaka" : escapeHtml(game.tag)}</span>
-          ${owned
-            ? `<button class="quick-add is-added" type="button" aria-label="${escapeHtml(game.title)} sudah ada di pustaka" disabled>✓</button>`
-            : `<button class="quick-add${inCart ? " is-added" : ""}" type="button" data-add="${game.id}" aria-label="${inCart ? "Hapus" : "Tambahkan"} ${escapeHtml(game.title)} ${inCart ? "dari" : "ke"} keranjang">${inCart ? "✓" : "+"}</button>`}
+          ${
+            owned
+              ? `<button class="quick-add is-added" type="button" aria-label="${escapeHtml(game.title)} sudah ada di pustaka" disabled>✓</button>`
+              : `<button class="quick-add${inCart ? " is-added" : ""}" type="button" data-add="${game.id}" aria-label="${inCart ? "Hapus" : "Tambahkan"} ${escapeHtml(game.title)} ${inCart ? "dari" : "ke"} keranjang">${inCart ? "✓" : "+"}</button>`
+          }
         </div>
       </div>
     </article>`;
-  }).join("");
-  document.querySelector("#results-count").textContent = `${visibleGames.length} game untuk dijelajahi`;
-  document.querySelector("#store-empty").classList.toggle("hidden", visibleGames.length > 0);
+    })
+    .join("");
+  document.querySelector("#results-count").textContent =
+    `${visibleGames.length} game untuk dijelajahi`;
+  document
+    .querySelector("#store-empty")
+    .classList.toggle("hidden", visibleGames.length > 0);
   gameGrid.classList.toggle("hidden", visibleGames.length === 0);
   renderFilters();
 }
 
 function renderLibrary() {
   const ownedGames = state.library.map(getGame).filter(Boolean);
-  document.querySelector("#library-summary").innerHTML = `<span><strong>${ownedGames.length}</strong> game di koleksimu</span><span>·</span><span>Siap dimainkan kapan saja</span>`;
-  document.querySelector("#library-grid").innerHTML = ownedGames.map(game => `
+  document.querySelector("#library-summary").innerHTML =
+    `<span><strong>${ownedGames.length}</strong> game di koleksimu</span><span>·</span><span>Siap dimainkan kapan saja</span>`;
+  document.querySelector("#library-grid").innerHTML = ownedGames
+    .map(
+      (game) => `
     <article class="library-card">
       ${artMarkup(game)}
       <div class="library-card-copy">
@@ -251,9 +305,15 @@ function renderLibrary() {
         <button class="button button-secondary" type="button" data-launch="${game.id}">Lihat di koleksi <span aria-hidden="true">↗</span></button>
       </div>
     </article>
-  `).join("");
-  document.querySelector("#library-empty").classList.toggle("hidden", ownedGames.length > 0);
-  document.querySelector("#library-grid").classList.toggle("hidden", ownedGames.length === 0);
+  `,
+    )
+    .join("");
+  document
+    .querySelector("#library-empty")
+    .classList.toggle("hidden", ownedGames.length > 0);
+  document
+    .querySelector("#library-grid")
+    .classList.toggle("hidden", ownedGames.length === 0);
 }
 
 function renderCart() {
@@ -277,13 +337,17 @@ function renderCart() {
     return;
   }
   const total = items.reduce((sum, game) => sum + game.price, 0);
-  content.innerHTML = `<div class="cart-items">${items.map(game => `
+  content.innerHTML = `<div class="cart-items">${items
+    .map(
+      (game) => `
     <article class="cart-item">
       ${artMarkup(game)}
       <div class="cart-item-copy"><h3>${escapeHtml(game.title)}</h3><p>${escapeHtml(genreLabels[game.genre])} · ${escapeHtml(game.studio)}</p></div>
       <div class="cart-item-price"><strong>${formatPrice(game.price)}</strong><button class="remove-item" type="button" data-remove="${game.id}">Hapus</button></div>
     </article>
-  `).join("")}</div>
+  `,
+    )
+    .join("")}</div>
   <aside class="cart-summary">
     <h2>Ringkasan pesanan</h2>
     <div class="summary-row"><span>Game (${items.length})</span><span>${formatPrice(total)}</span></div>
@@ -296,7 +360,10 @@ function renderCart() {
 
 function updateCartCount() {
   cartCount.textContent = String(state.cart.length);
-  cartCount.setAttribute("aria-label", `${state.cart.length} game di keranjang`);
+  cartCount.setAttribute(
+    "aria-label",
+    `${state.cart.length} game di keranjang`,
+  );
 }
 
 function render() {
@@ -309,18 +376,21 @@ function render() {
 function switchView(view) {
   if (!["store", "library", "cart"].includes(view)) return;
   state.view = view;
-  document.querySelectorAll(".view-panel").forEach(panel => {
+  document.querySelectorAll(".view-panel").forEach((panel) => {
     const visible = panel.id === `${view}-view`;
     panel.hidden = !visible;
     panel.classList.toggle("is-visible", visible);
   });
-  document.querySelectorAll(".nav-link").forEach(link => {
+  document.querySelectorAll(".nav-link").forEach((link) => {
     const active = link.dataset.view === view;
     link.classList.toggle("is-active", active);
     if (active) link.setAttribute("aria-current", "page");
     else link.removeAttribute("aria-current");
   });
-  document.querySelector("#search-input").closest(".search-box").classList.toggle("hidden", view !== "store");
+  document
+    .querySelector("#search-input")
+    .closest(".search-box")
+    .classList.toggle("hidden", view !== "store");
   if (view === "cart") state.receipt = null;
   render();
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -332,7 +402,7 @@ function toggleCart(id) {
     return;
   }
   if (state.cart.includes(id)) {
-    state.cart = state.cart.filter(cartId => cartId !== id);
+    state.cart = state.cart.filter((cartId) => cartId !== id);
     showToast(`${getGame(id).title} dihapus dari keranjang.`);
   } else {
     state.cart = [...state.cart, id];
@@ -361,9 +431,11 @@ function openDetails(id) {
       <span><strong>Cocok untuk</strong>${escapeHtml(game.tagline)}</span>
     </div>
     <div class="detail-footer"><span class="detail-price">${formatPrice(game.price)}</span>
-      ${owned
-        ? `<button class="button button-secondary" type="button" disabled>Sudah ada di pustaka</button>`
-        : `<button class="button button-primary" type="button" data-add="${game.id}">${inCart ? "Hapus dari keranjang" : "Tambahkan ke keranjang"} <span aria-hidden="true">${inCart ? "✓" : "→"}</span></button>`}
+      ${
+        owned
+          ? `<button class="button button-secondary" type="button" disabled>Sudah ada di pustaka</button>`
+          : `<button class="button button-primary" type="button" data-add="${game.id}">${inCart ? "Hapus dari keranjang" : "Tambahkan ke keranjang"} <span aria-hidden="true">${inCart ? "✓" : "→"}</span></button>`
+      }
     </div>`;
   modal.classList.remove("hidden");
   document.body.style.overflow = "hidden";
@@ -380,13 +452,18 @@ function showToast(message) {
   toast.textContent = message;
   toast.classList.add("is-visible");
   window.clearTimeout(toastTimer);
-  toastTimer = window.setTimeout(() => toast.classList.remove("is-visible"), 2800);
+  toastTimer = window.setTimeout(
+    () => toast.classList.remove("is-visible"),
+    2800,
+  );
 }
 
 function checkout() {
   const items = state.cart.map(getGame).filter(Boolean);
   if (!items.length) return;
-  state.library = [...new Set([...state.library, ...items.map(game => game.id)])];
+  state.library = [
+    ...new Set([...state.library, ...items.map((game) => game.id)]),
+  ];
   state.cart = [];
   state.receipt = { count: items.length };
   saveList(storageKeys.library, state.library);
@@ -394,7 +471,7 @@ function checkout() {
   render();
 }
 
-document.addEventListener("click", event => {
+document.addEventListener("click", (event) => {
   const target = event.target instanceof Element ? event.target : null;
   if (!target) return;
 
@@ -402,7 +479,8 @@ document.addEventListener("click", event => {
   if (addButton) {
     event.stopPropagation();
     toggleCart(addButton.dataset.add);
-    if (!modal.classList.contains("hidden") && state.selectedGameId) openDetails(state.selectedGameId);
+    if (!modal.classList.contains("hidden") && state.selectedGameId)
+      openDetails(state.selectedGameId);
     return;
   }
   const genreButton = target.closest("[data-genre]");
@@ -465,25 +543,34 @@ document.addEventListener("click", event => {
   }
 });
 
-document.addEventListener("keydown", event => {
+document.addEventListener("keydown", (event) => {
   const target = event.target instanceof Element ? event.target : null;
-  if (event.key === "Escape" && !modal.classList.contains("hidden")) closeDetails();
-  if (event.key === "/" && modal.classList.contains("hidden") && target?.tagName !== "INPUT" && !target?.isContentEditable) {
+  if (event.key === "Escape" && !modal.classList.contains("hidden"))
+    closeDetails();
+  if (
+    event.key === "/" &&
+    modal.classList.contains("hidden") &&
+    target?.tagName !== "INPUT" &&
+    !target?.isContentEditable
+  ) {
     event.preventDefault();
     document.querySelector("#search-input").focus();
   }
-  if ((event.key === "Enter" || event.key === " ") && target?.matches("[data-game-card]")) {
+  if (
+    (event.key === "Enter" || event.key === " ") &&
+    target?.matches("[data-game-card]")
+  ) {
     event.preventDefault();
     openDetails(target.dataset.gameCard);
   }
 });
 
-document.querySelector("#search-input").addEventListener("input", event => {
+document.querySelector("#search-input").addEventListener("input", (event) => {
   state.query = event.target.value;
   renderGames();
 });
 
-document.querySelector("#sort-select").addEventListener("change", event => {
+document.querySelector("#sort-select").addEventListener("change", (event) => {
   state.sort = event.target.value;
   renderGames();
 });
