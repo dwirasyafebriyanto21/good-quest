@@ -9,11 +9,12 @@ const games = [
     rating: "96%",
     price: 18.99,
     tag: "Pilihan GoodQuest",
-    studio: "Morrow Field",
+    studio: "Ammar Muflih",
     release: "2025",
     description:
       "Seorang pemimpin yang ternyata menghianati bawahannya, hanya demi harta yang tak seberapa. Ikuti jejaknya, temukan rahasia yang ia sembunyikan, dan hadapi konsekuensi dari pilihanmu dalam kisah yang penuh intrik ini.",
-    tagline: "Jelajahi dunia yang selalu mengingatmu.",
+    tagline:
+      "Nikmati simulasi perampokan yang menegangkan, di mana setiap keputusanmu menentukan nasibmu.",
   },
   {
     id: "orbitfall",
