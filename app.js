@@ -116,7 +116,7 @@ const games = [
     rating: "87%",
     price: 129900,
     tag: "Permata tersembunyi",
-    studio: "Night Shift Games",
+    studio: "Abyan Faturrahman",
     release: "2025",
     description:
       "Satu satunya permainan yang horor, diambil dari kisah nyata dari seorang mahasiswa dari unismuh. Jaga anomali tetap kenyang, kenali kisah para anomali, dan atur kekacauan secukupnya agar semua orang pulang sebelum fajar.",
