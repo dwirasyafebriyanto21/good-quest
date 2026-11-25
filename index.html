@@ -1,70 +1,148 @@
 <!doctype html>
 <html lang="id">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#10130f">
-    <meta name="description" content="Temukan game indie favoritmu berikutnya di GoodQuest, toko game digital fiktif.">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#10130f" />
+    <meta
+      name="description"
+      content="Temukan game indie favoritmu berikutnya di GoodQuest, toko game digital fiktif."
+    />
     <title>GoodQuest — Temukan game favoritmu</title>
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
     <script src="app.js" defer></script>
   </head>
   <body>
     <div class="app-shell">
       <header class="topbar">
-        <a class="brand" href="#" data-view-link="store" aria-label="Beranda GoodQuest">
-          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <a
+          class="brand"
+          href="#"
+          data-view-link="store"
+          aria-label="Beranda GoodQuest"
+        >
+          <span class="brand-mark" aria-hidden="true"
+            ><span></span><span></span><span></span
+          ></span>
           <span>good<span class="brand-light">quest</span></span>
         </a>
         <nav class="primary-nav" aria-label="Navigasi utama">
-          <button class="nav-link is-active" type="button" data-view="store" aria-current="page">Jelajahi</button>
-          <button class="nav-link" type="button" data-view="library">Pustaka saya</button>
+          <button
+            class="nav-link is-active"
+            type="button"
+            data-view="store"
+            aria-current="page"
+          >
+            Jelajahi
+          </button>
+          <button class="nav-link" type="button" data-view="library">
+            Pustaka saya
+          </button>
           <button class="nav-link cart-nav" type="button" data-view="cart">
             Keranjang <span class="cart-count" id="cart-count">0</span>
           </button>
         </nav>
         <div class="topbar-tools">
           <label class="search-box">
-            <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.8" cy="8.8" r="5.7"></circle><path d="m13 13 4 4"></path></svg>
-            <input id="search-input" type="search" placeholder="Cari game..." autocomplete="off" aria-label="Cari game">
+            <svg viewBox="0 0 20 20" aria-hidden="true">
+              <circle cx="8.8" cy="8.8" r="5.7"></circle>
+              <path d="m13 13 4 4"></path>
+            </svg>
+            <input
+              id="search-input"
+              type="search"
+              placeholder="Cari game..."
+              autocomplete="off"
+              aria-label="Cari game"
+            />
             <kbd>/</kbd>
           </label>
-          <button class="profile-button" type="button" aria-label="Profil pemain demo">
-            <span class="avatar">Q</span><span class="profile-name">quester</span><span class="profile-caret">⌄</span>
+          <button
+            class="profile-button"
+            type="button"
+            aria-label="Profil pemain demo"
+          >
+            <span class="avatar">Q</span
+            ><span class="profile-name">quester</span
+            ><span class="profile-caret">⌄</span>
           </button>
         </div>
       </header>
 
       <main id="main-content">
-        <section class="view-panel is-visible" id="store-view" aria-labelledby="store-title">
+        <section
+          class="view-panel is-visible"
+          id="store-view"
+          aria-labelledby="store-title"
+        >
           <div class="hero">
             <div class="hero-copy">
-              <p class="eyebrow"><span class="eyebrow-dot"></span> Teman seru untuk mengisi waktu luangmu</p>
-              <h1 id="store-title">Temukan<br><span>game</span> favorit.</h1>
-              <p class="hero-description">Jelajahi dunia luas, karya studio independen, dan kisah yang membekas. Game seru berikutnya tinggal beberapa klik lagi.</p>
+              <p class="eyebrow">
+                <span class="eyebrow-dot"></span> Teman seru untuk mengisi waktu
+                luangmu
+              </p>
+              <h1 id="store-title">Temukan<br /><span>game</span> favorit.</h1>
+              <p class="hero-description">
+                Jelajahi dunia luas, karya studio independen, dan kisah yang
+                membekas. Game seru berikutnya tinggal beberapa klik lagi.
+              </p>
               <div class="hero-actions">
-                <button class="button button-primary" type="button" data-scroll-catalog>Jelajahi koleksi <span aria-hidden="true">↘</span></button>
-                <span class="hero-proof"><span class="proof-stars" aria-hidden="true">★★★★★</span> Pilihan istimewa</span>
+                <button
+                  class="button button-primary"
+                  type="button"
+                  data-scroll-catalog
+                >
+                  Jelajahi koleksi <span aria-hidden="true">↘</span>
+                </button>
+                <span class="hero-proof"
+                  ><span class="proof-stars" aria-hidden="true">★★★★★</span>
+                  Pilihan istimewa</span
+                >
               </div>
             </div>
-            <div class="hero-art art-quiet" aria-label="Ilustrasi orisinal untuk The Quiet Between">
-              <span class="hero-art-label">PILIHAN GOODQUEST <span>·</span> 01 / 08</span>
-              <span class="hero-sun"></span><span class="hero-ridge hero-ridge-back"></span><span class="hero-ridge hero-ridge-front"></span>
-              <span class="hero-art-copy"><span>SEBUAH PETUALANGAN DALAM KEHENINGAN</span><strong>THE QUIET<br>BETWEEN</strong><span>Jelajahi dunia yang selalu mengingatmu.</span></span>
-              <span class="hero-stamp">GQ<br><small>PILIHAN</small></span>
-              <button class="hero-open" type="button" data-featured-game="quiet-between">Lihat selengkapnya <span aria-hidden="true">↗</span></button>
+            <div
+              class="hero-art art-quiet"
+              aria-label="Ilustrasi orisinal untuk The Quiet Between"
+            >
+              <span class="hero-art-label"
+                >PILIHAN GOODQUEST <span>·</span> 01 / 08</span
+              >
+              <span class="hero-sun"></span
+              ><span class="hero-ridge hero-ridge-back"></span
+              ><span class="hero-ridge hero-ridge-front"></span>
+              <span class="hero-art-copy"
+                ><span>SEBUAH PETUALANGAN DALAM KEHENINGAN</span
+                ><strong>BEHIND BACK<br />OF MASTER TRAINING</strong
+                ><span
+                  >Nikmati simulasi perampokan yang menegangkan, di mana setiap
+                  keputusanmu menentukan nasibmu.</span
+                ></span
+              >
+              <span class="hero-stamp">GQ<br /><small>PILIHAN</small></span>
+              <button
+                class="hero-open"
+                type="button"
+                data-featured-game="quiet-between"
+              >
+                Lihat selengkapnya <span aria-hidden="true">↗</span>
+              </button>
             </div>
             <span class="hero-index" aria-hidden="true">GQ — 2025</span>
           </div>
 
-          <section class="catalog-section" id="catalog" aria-labelledby="catalog-title">
+          <section
+            class="catalog-section"
+            id="catalog"
+            aria-labelledby="catalog-title"
+          >
             <div class="section-heading">
               <div>
                 <p class="eyebrow eyebrow-muted">KOLEKSI PILIHAN</p>
                 <h2 id="catalog-title">Temukan gaya bermainmu.</h2>
               </div>
-              <label class="sort-control">Urutkan
+              <label class="sort-control"
+                >Urutkan
                 <select id="sort-select" aria-label="Urutkan game">
                   <option value="featured">Pilihan</option>
                   <option value="rating">Peringkat tertinggi</option>
@@ -73,28 +151,61 @@
                 </select>
               </label>
             </div>
-            <div class="filter-row" id="genre-filters" aria-label="Filter berdasarkan genre"></div>
+            <div
+              class="filter-row"
+              id="genre-filters"
+              aria-label="Filter berdasarkan genre"
+            ></div>
             <p class="results-count" id="results-count" aria-live="polite"></p>
             <div class="game-grid" id="game-grid"></div>
             <div class="empty-state hidden" id="store-empty">
               <span class="empty-icon" aria-hidden="true">⌕</span>
               <h3>Game tidak ditemukan</h3>
               <p>Coba judul lain atau pilih genre yang berbeda.</p>
-              <button class="button button-secondary" type="button" data-reset-filters>Hapus filter</button>
+              <button
+                class="button button-secondary"
+                type="button"
+                data-reset-filters
+              >
+                Hapus filter
+              </button>
             </div>
           </section>
           <section class="newsletter">
             <span class="newsletter-spark" aria-hidden="true">✳</span>
-            <div><p class="eyebrow">KABAR BAIK SESUNGGUHNYA</p><h2>Game seru, tanpa basa-basi.</h2><p>Buletin demo kami sesekali berbagi rekomendasi, tanpa memenuhi kotak masukmu.</p></div>
-            <button type="button" class="button button-secondary" data-newsletter>Siap, boleh <span aria-hidden="true">→</span></button>
+            <div>
+              <p class="eyebrow">KABAR BAIK SESUNGGUHNYA</p>
+              <h2>Game seru, tanpa basa-basi.</h2>
+              <p>
+                Buletin demo kami sesekali berbagi rekomendasi, tanpa memenuhi
+                kotak masukmu.
+              </p>
+            </div>
+            <button
+              type="button"
+              class="button button-secondary"
+              data-newsletter
+            >
+              Siap, boleh <span aria-hidden="true">→</span>
+            </button>
           </section>
         </section>
 
-        <section class="view-panel page-view" id="library-view" aria-labelledby="library-title" hidden>
+        <section
+          class="view-panel page-view"
+          id="library-view"
+          aria-labelledby="library-title"
+          hidden
+        >
           <div class="page-heading">
             <p class="eyebrow eyebrow-muted">KOLEKSIMU</p>
-            <h1 id="library-title">Pustaka saya<span class="heading-period">.</span></h1>
-            <p>Semua game favoritmu, tersimpan di satu tempat. Pembelian di sini hanya simulasi.</p>
+            <h1 id="library-title">
+              Pustaka saya<span class="heading-period">.</span>
+            </h1>
+            <p>
+              Semua game favoritmu, tersimpan di satu tempat. Pembelian di sini
+              hanya simulasi.
+            </p>
           </div>
           <div class="library-summary" id="library-summary"></div>
           <div class="library-grid" id="library-grid"></div>
@@ -102,14 +213,27 @@
             <span class="empty-icon" aria-hidden="true">✳</span>
             <h3>Game favoritmu berikutnya sudah menanti.</h3>
             <p>Jelajahi koleksi dan tambahkan game ke pustakamu.</p>
-            <button class="button button-primary" type="button" data-view="store">Jelajahi game</button>
+            <button
+              class="button button-primary"
+              type="button"
+              data-view="store"
+            >
+              Jelajahi game
+            </button>
           </div>
         </section>
 
-        <section class="view-panel page-view" id="cart-view" aria-labelledby="cart-title" hidden>
+        <section
+          class="view-panel page-view"
+          id="cart-view"
+          aria-labelledby="cart-title"
+          hidden
+        >
           <div class="page-heading">
             <p class="eyebrow eyebrow-muted">TINGGAL SELANGKAH LAGI</p>
-            <h1 id="cart-title">Keranjang<span class="heading-period">.</span></h1>
+            <h1 id="cart-title">
+              Keranjang<span class="heading-period">.</span>
+            </h1>
             <p>Sedikit hal seru untuk dinantikan.</p>
           </div>
           <div id="cart-content" class="cart-layout"></div>
@@ -118,17 +242,38 @@
 
       <footer class="site-footer">
         <a class="brand brand-footer" href="#" data-view-link="store">
-          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span class="brand-mark" aria-hidden="true"
+            ><span></span><span></span><span></span
+          ></span>
           <span>good<span class="brand-light">quest</span></span>
         </a>
-        <p>Prototipe toko game fiktif. Tidak ada pembelian, akun, atau unduhan game sungguhan.</p>
-        <span>Dibuat untuk kecintaan pada game <span class="footer-heart">♥</span></span>
+        <p>
+          Prototipe toko game fiktif. Tidak ada pembelian, akun, atau unduhan
+          game sungguhan.
+        </p>
+        <span
+          >Dibuat untuk kecintaan pada game
+          <span class="footer-heart">♥</span></span
+        >
       </footer>
     </div>
 
     <div class="modal-backdrop hidden" id="game-modal" role="presentation">
-      <section class="game-dialog" role="dialog" aria-modal="true" aria-labelledby="detail-title" tabindex="-1">
-        <button class="modal-close" type="button" data-close-modal aria-label="Tutup detail game">×</button>
+      <section
+        class="game-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="detail-title"
+        tabindex="-1"
+      >
+        <button
+          class="modal-close"
+          type="button"
+          data-close-modal
+          aria-label="Tutup detail game"
+        >
+          ×
+        </button>
         <div class="detail-art" id="detail-art"></div>
         <div class="detail-copy" id="detail-copy"></div>
       </section>
